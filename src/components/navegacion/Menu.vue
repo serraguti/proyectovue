@@ -6,6 +6,9 @@
 <router-link to="/">Home</router-link>
                 </li>
                 <li>
+<router-link to="/tablamultiplicar">Tabla multiplicar</router-link>
+                </li>                
+                <li>
 <router-link to="/directivas">Directivas</router-link>
                 </li>
                 <li>

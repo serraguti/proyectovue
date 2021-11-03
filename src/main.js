@@ -8,6 +8,7 @@ import Television from './components/navegacion/Television.vue';
 import CicloVida from './components/CicloVida.vue';
 import JuegosConmutados from './components/JuegosConmutados.vue';
 import Directivas from './components/Directivas.vue';
+import TablaMultiplicar from './components/TablaMultiplicar.vue';
 
 Vue.config.productionTip = false
 
@@ -20,6 +21,7 @@ Vue.use(VueRouter);
 const routes = [
   {path: "/home", component: Home},
   {path: "/directivas", component: Directivas},
+  {path: "/tablamultiplicar", component: TablaMultiplicar},
   {path: "/juegosconmutados", component: JuegosConmutados},
   {path: "/ciclovida", component: CicloVida},
   {path: "/cine", component: Cine},
